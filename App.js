@@ -1,5 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { styles } from 'react-native-bootstrap-styles';
+import { styleSheet } from 'react-native-tailwindcss';// à mettre sur les composants ultérieurement
+
+
+
 
 export default function App() {
   return (
